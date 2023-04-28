@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 55px;
+}
+
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #2C5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+  .gamesList {
+    display: inline-block;
+    width: 30%;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .gamesList img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .gamesList p {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .gameName {
+    color: rgb(255, 255, 255);
+  }
+
+  .data {
+    color: rgb(185, 187, 101);
+  }
+
+  #juegos {
+    background: #462617;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #462617, #203A43, #462617);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #462617, #203A43, #462617); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .empresas {
+    margin: 0;
+    padding: 0;
+    background: #462617;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #462617, #203A43, #462617);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #462617, #203A43, #462617); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #empresaTitulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .companyName {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .companyList img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .companyList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
